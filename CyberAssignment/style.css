@@ -246,6 +246,13 @@ input::placeholder
     text-decoration: underline;
     color: #06BFFF;
 }
+@media only screen and (max-width: 772px)
+{
+    .last
+    {
+        display: none;
+    }
+}
 @media only screen and (max-width: 600px)
  {
     nav
